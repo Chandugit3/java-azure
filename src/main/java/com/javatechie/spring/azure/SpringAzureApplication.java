@@ -11,7 +11,7 @@ public class SpringAzureApplication {
 	
 	@GetMapping("/message")
 	public String message() {
-		return "welcome to azure";
+		return "welcome to azure devops";
 	}
 
 	public static void main(String[] args) {
