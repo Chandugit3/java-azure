@@ -11,7 +11,7 @@ public class SpringAzureApplication {
 	
 	@GetMapping("/message")
 	public String message() {
-		return "welcome!! deployment success";
+		return "Congrats!! deployment success";
 	}
 
 	public static void main(String[] args) {
